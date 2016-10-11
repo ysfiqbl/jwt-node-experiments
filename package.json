@@ -1,0 +1,27 @@
+{
+  "name": "my-jwt-node-experiments",
+  "version": "1.0.0",
+  "description": "Just a repo to try JWT in node for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysfiqbl/jwt-node-experiments.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jws",
+    "jwt"
+  ],
+  "author": "Yusuf Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysfiqbl/jwt-node-experiments/issues"
+  },
+  "homepage": "https://github.com/ysfiqbl/jwt-node-experiments#readme",
+  "dependencies": {
+    "jws": "^3.1.3"
+  }
+}
