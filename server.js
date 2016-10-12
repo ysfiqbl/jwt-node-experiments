@@ -10,7 +10,7 @@ app.post('/login', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-	res.send('<html><body><form>'
+	res.send('<html><body><form method="POST" action="/login">'
 		+'<label for="username">Username</label><input type="text" name="username" value="" />'
 		+'<label for="password">Password</label><input type="password" name="password" value="" />'
 		+'<button type="submit">Login</button>'
